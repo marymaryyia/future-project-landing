@@ -57,30 +57,6 @@ Since this project relies purely on standard web technologies:
    ```bash
    python -m http.server 8000
    ```
-
----
-
-## ✦ GitHub Pages Deployment Guide
-
-To deploy this project to GitHub Pages:
-
-1. Push this workspace to your GitHub repository:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit — FUTURE Editorial Landing Page"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/FUTURE-landing-page.git
-   git push -u origin main
-   ```
-2. Navigate to your repository on GitHub.
-3. Click **Settings** > **Pages** (under Code and automation).
-4. Under **Build and deployment** > **Source**, select **Deploy from a branch**.
-5. Select `main` branch and `/ (root)` folder, then click **Save**.
-6. Your site will be published at `https://YOUR_USERNAME.github.io/FUTURE-landing-page/`.
-
----
-
 ## ✦ Live Demo Placeholder
 
 - **Live URL**: `https://YOUR_USERNAME.github.io/FUTURE-landing-page/` *(Replace with your deployed GitHub Pages URL)*
